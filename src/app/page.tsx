@@ -24,7 +24,7 @@ export default function Home() {
     setSpinning(true);
     setMessage("");
     let spins = 20;
-    let interval = setInterval(() => {
+    const interval = setInterval(() => {
       setReels([
         Math.floor(Math.random() * symbols.length),
         Math.floor(Math.random() * symbols.length),
